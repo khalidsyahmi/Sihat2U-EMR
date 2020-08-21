@@ -1,0 +1,7 @@
+.card{
+    background-color: aquamarine;
+    block-size: 2cm;
+    border-radius: 2cm;
+    padding-inline-start: 25mm;
+    padding-top: 1mm;
+}

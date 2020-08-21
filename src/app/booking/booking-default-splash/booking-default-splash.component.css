@@ -1,0 +1,7 @@
+.card-header{
+    background-color: wheat;
+    block-size: 2cm;
+    border-radius: 1cm;
+    padding-inline-start: 15mm;
+    padding-top: 5mm;
+}

@@ -1,0 +1,16 @@
+.card-header{
+    background-color: aquamarine;
+    block-size: 2cm;
+    border-radius: 5cm;
+    padding-inline-start: 20mm;
+    padding-top: 4mm;
+    border-spacing: 4cm;
+}
+
+.col{
+    padding-top: 10cm;
+}
+.btn{
+    padding-top: 2em;
+    padding:3mm;
+}

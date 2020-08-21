@@ -1,0 +1,43 @@
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a 
+          routerLink="/homepage" class="navbar-brand">
+          <img src="../../assets/img/logosihat2umy.png" width="150" height="35" class="nav navbar-nav " alt="">
+            Pusat Perubatan Sihat2U
+        </a>
+      </div>
+  
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+
+          <li routerLinkActive="active" *ngIf="isAuthenticated">
+            <a routerLink="/menuC">Cards Menu</a></li>
+            
+          <li routerLinkActive="active" *ngIf="isAuthenticated">
+            <a routerLink="/booking">Booking</a></li>
+
+            <!-- fix this later -->
+          <li routerLinkActive="active" *ngIf="isAuthenticated"> 
+            <a routerLink="/uac" >User Account</a>
+          </li>
+
+            <li routerLinkActive="active" *ngIf="isAdmin">
+              <a routerLink="/bookingtab">Booking Table</a>
+            </li>
+
+          <li routerLinkActive="active" *ngIf="!isAuthenticated" >
+            <a routerLink="/auth">Authentication</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li *ngIf="isAuthenticated">
+            <a style="cursor: pointer;" (click)="onLogout()">Logout</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  

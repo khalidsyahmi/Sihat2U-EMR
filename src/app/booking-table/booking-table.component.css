@@ -1,0 +1,12 @@
+.full-width-table {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.card-header{
+  background-color: aquamarine;
+  block-size: 2cm;
+  border-radius: 2cm;
+  padding-inline-start: 25mm;
+  padding-top: 5mm;
+}
