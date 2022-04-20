@@ -1,4 +1,13 @@
-# PtHisPsm2
+# Sihat2U EMR
+
+# Introduction 
+
+The purpose is to handle customers with their appointments for getting treatments in Malay traditional health methods. 
+Planned to be created again with a new version from the ground up with better coding methods and replaced framework.
+No longer functional from lack of maitenance.
+
+This is a project for college graduation in 2020.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
@@ -26,4 +35,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-/src/assets/img/ATMeDIK-Kampus.png
+![alt image](/src/assets/img/ATMeDIK-Kampus.png)
